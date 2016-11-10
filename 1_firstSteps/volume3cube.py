@@ -13,9 +13,9 @@ v = l**3
 
 print "Вычисление объёма вручную (поэлементно):"
 print "V1 = %d, V2 = %d, V3 = %d\n" %(v1_correct, v2_correct, v3_correct)
+print "Вычисление объёма через умножение массива: V1 = {}, V2 = {}, V3 = {}".format(v[0], v[1], v[2])
+print "Погрешность вычисления (разность между правильным и полученным значениями): {}, {}, {}".format(v[0]-v1_correct, v[1]-v2_correct, v[2]-v3_correct)
 
-print "Вычисление объёма через умножение массива: "
-print v
 
 plt.xlabel(u'L, length')
 plt.ylabel(u'V, volume')
